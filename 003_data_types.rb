@@ -28,3 +28,18 @@ puts is_still_math_teacher.class  # outputs FalseClass
 has_money = nil
 
 puts has_money.class  # outputs NilClass
+
+# arrays
+my_arr = Array.new(10)
+
+puts my_arr.class  # outputs Array
+
+# hashes
+# store key, value pair - like dictionary in python
+my_hash = {
+  "name" => "Timothy Unkert",
+  "age" => 46,
+  "website" => "https://unkertmedia.com"
+}
+
+puts my_hash.class  # outputs Hash
