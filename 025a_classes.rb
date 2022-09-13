@@ -10,7 +10,7 @@ ruby_teacher.age = 46
 
 puts ruby_teacher.fname + " " + ruby_teacher.lname + " is " + ruby_teacher.age.to_s + " years old."
 
-class Student < Teacher
+class Student < Teacher  # this is an example of inheritance
   attr_accessor :studentID
 end
 

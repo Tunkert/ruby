@@ -19,7 +19,7 @@ ruby_teacher.website.to_s + "."
 class Student < Teacher
   attr_accessor :studentID
 
-  def initialize(fname, lname, age, website, studentID)
+  def initialize(fname, lname, age, website, studentID) # overide initialize function
     @fname = fname
     @lname = lname
     @age = age
